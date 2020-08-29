@@ -1,5 +1,7 @@
 package com.su.service;
 
+import com.su.domain.Shelf;
+
 public interface ShelfService {
 
     /**
@@ -16,4 +18,11 @@ public interface ShelfService {
      * 移除货架
      */
     void removeShelfById(Integer id);
+
+    /**
+     * 根据编号查找货架
+     * @param character
+     * @return
+     */
+    Shelf findShelfByName(Character character);
 }

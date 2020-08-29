@@ -49,4 +49,14 @@ public class Clothing implements Serializable {
         this.quantity = quantity;
     }
 
+    @Override
+    public String toString() {
+        return "Clothing{" +
+                "id=" + id +
+                ", barcode='" + barcode + '\'' +
+                ", slotId=" + slotId +
+                ", slot=" + slot +
+                ", quantity=" + quantity +
+                '}';
+    }
 }

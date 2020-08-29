@@ -50,4 +50,14 @@ public class Slot implements Serializable {
         this.clothing = clothing;
     }
 
+    @Override
+    public String toString() {
+        return "Slot{" +
+                "id=" + id +
+                ", name=" + name +
+                ", shelfId=" + shelfId +
+                ", shelf=" + shelf +
+                ", clothing=" + clothing +
+                '}';
+    }
 }

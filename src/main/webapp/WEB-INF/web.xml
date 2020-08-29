@@ -4,6 +4,7 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
   <!--前端控制器-->
   <servlet>
     <servlet-name>dispatcherServlet</servlet-name>
@@ -17,11 +18,17 @@
     <!--启动服务器创建该servlet-->
     <load-on-startup>1</load-on-startup>
   </servlet>
-
   <servlet-mapping>
     <servlet-name>dispatcherServlet</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>*.html</url-pattern>
+  </servlet-mapping>
+
+
+
 
   <!--配置spring的监听器,默认只加载WEB_INF目录下的applicationContext.xml的配置文件-->
   <listener>

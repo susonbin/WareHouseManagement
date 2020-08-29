@@ -33,4 +33,12 @@ public class Shelf implements Serializable {
         this.slots = slots;
     }
 
+    @Override
+    public String toString() {
+        return "Shelf{" +
+                "id=" + id +
+                ", name=" + name +
+                ", slots=" + slots +
+                '}';
+    }
 }

@@ -19,4 +19,9 @@ public class UserServiceImpl implements UserService {
         System.out.println("业务层：查询所有");
         return userDao.findAll();
     }
+
+    @Override
+    public User findUserByName(String username) {
+        return userDao.findUserByName(username);
+    }
 }

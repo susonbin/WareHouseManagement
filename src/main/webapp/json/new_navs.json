@@ -1,0 +1,71 @@
+[
+  {
+    "title": "库存管理",
+    "icon": "icon-text",
+    "href": "",
+    "spread": false,
+    "children": [
+      {
+        "title": "库存查询",
+        "icon": "&#xe61c;",
+        "href": "page/stock/stock_inquiry.html",
+        "spread": false
+      },
+      {
+        "title": "商品入库",
+        "icon": "&#xe609;",
+        "href": "page/stock/stock_add.html",
+        "spread": false
+      }
+    ]
+  },
+  {
+    "title": "订单管理",
+    "icon": "&#xe634;",
+    "href": "",
+    "spread": false,
+    "children": [
+      {
+        "title": "发货订单",
+        "icon": "&#xe61c;",
+        "href": "page/order/order_manage.html",
+        "spread": false
+      },
+      {
+        "title": "退货订单",
+        "icon": "&#xe609;",
+        "href": "page/order/order_return.html",
+        "spread": false
+      }
+    ]
+  },
+  {
+    "title": "库存盘点",
+    "icon": "&#xe6b2;",
+    "href": "page/stock/stock_take.html",
+    "spread": false
+  },
+  {
+    "title": "其他页面",
+    "icon": "&#xe630;",
+    "href": "",
+    "spread": false,
+    "children": [
+      {
+        "title": "404页面",
+        "icon": "&#xe61c;",
+        "href": "page/404.html",
+        "spread": false
+      },
+      {
+        "title": "登录",
+        "icon": "&#xe609;",
+        "href": "page/login/login.html",
+        "spread": false,
+        "target": "_blank"
+      }
+    ]
+  }
+]
+
+
